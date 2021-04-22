@@ -13,4 +13,4 @@ jobs:
     - name: curl
       uses: wei/curl@master
       with:
-        args: https://httpbin.org/get https://fancy-brook-66ae.vek.workers.dev
+        args: https://fancy-brook-66ae.vek.workers.dev
