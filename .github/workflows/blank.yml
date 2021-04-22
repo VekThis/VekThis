@@ -1,20 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: update
-
-on:
-  push:
-  schedule:
-  # 定时任务，在每天的5点推送天气信息到邮箱
-    - cron: '*/28 * * * *'
-
+name: update     
+on: push
 jobs:
-  bot:
+  curl:
     runs-on: ubuntu-latest
     steps:
-    # 首先copy git仓库到虚拟机上
-      - name: 'Checkout codes'
-        uses: actions/checkout@v1
-    # 执行仓库中的脚本文件
-      - name: 'update vek'
-        run: bash ./vek.sh
+    - name: curl
+      uses: wei/curl@master
+      with:
+        args: https://httpbin.org/get https://fancy-brook-66ae.vek.workers.dev
