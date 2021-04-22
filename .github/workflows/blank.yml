@@ -4,7 +4,7 @@ name: update
 on:
   push:
   schedule:
-    - cron: '0/28 0 0 0'
+    - cron: '*/28  * * *'
 jobs:
   curl:
     runs-on: ubuntu-latest
