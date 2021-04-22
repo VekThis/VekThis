@@ -16,8 +16,8 @@ jobs:
       - name: 'Checkout codes'
         uses: actions/checkout@v1
     # 执行仓库中的脚本文件
-      - name: 'Get Weather'
-        run: bash ./weather.sh
+      - name: 'update vek'
+        run: bash ./vek.sh
       # 获取格式化的日期并存入GitHub内置的环境变量中
       - name: 'Get Date'
         run: echo "REPORT_DATE=$(TZ=':Asia/Shanghai' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
