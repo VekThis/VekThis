@@ -12,4 +12,4 @@ jobs:
     - name: curl
       uses: wei/curl@master
       with:
-        args: https://fancy-brook-66ae.vek.workers.dev
+        args: https://fancy-brook-66ae.vek.workers.dev https://winetricks-heroku.vek.workers.dev https://vek-winetricks-librarys.herokuapp.com https://winetricks-panindex.herokuapp.com https://t.vek.workers.dev
