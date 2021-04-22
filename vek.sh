@@ -9,5 +9,4 @@ UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 curl \
   -H "Accept-Language: $LANGUAGE" \
   -H "User-Agent: $UA" \
-  -o https://fancy-brook-66ae.vek.workers.dev \
-  wttr.in/$CITY?format=4\&$UNIT
+  -o https://fancy-brook-66ae.vek.workers.dev
