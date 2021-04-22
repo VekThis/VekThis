@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+# 定时刷新winetricks上游服务器
 
 name: update
 on:
