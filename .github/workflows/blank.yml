@@ -12,4 +12,4 @@ jobs:
     - name: curl
       uses: wei/curl@master
       with:
-        args: https://fancy-brook-66ae.vek.workers.dev https://t.vek.workers.dev
+        args: https://fancy-brook-66ae.vek.workers.dev https://t.vek.workers.dev 
