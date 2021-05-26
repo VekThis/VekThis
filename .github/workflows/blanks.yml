@@ -1,0 +1,15 @@
+# 定时刷新winetricks上游服务器
+
+name: update
+on:
+  push:
+  schedule:
+    - cron: '0/28 * * * *'
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+    - name: curl
+      uses: wei/curl@master
+      with:
+        args: https://t.vek.workers.dev
