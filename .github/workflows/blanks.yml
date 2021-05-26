@@ -1,6 +1,6 @@
 # 定时刷新winetricks上游服务器
 
-name: update
+name: updateT
 on:
   push:
   schedule:
